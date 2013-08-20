@@ -1,0 +1,25 @@
+CREATE TABLE `users`
+(
+    `email`         varchar(255) PRIMARY KEY,
+    `id`            varchar(32) UNIQUE KEY,
+    `esncard`       varchar(32) UNIQUE KEY,
+    `name`          varchar(32),
+    `lastName`      varchar(32),
+    `gender`        varchar(32),
+    `fileID`        varchar(255),
+    `fileESNCARD`   varchar(255),
+    `phone`         varchar(32),
+    `uni`           varchar(32),
+    `nac`           varchar(64),
+    `shirt`         varchar(32),
+    `validoDatos`   boolean DEFAULT FALSE,
+    `exencion`      boolean DEFAULT FALSE,
+    `fileExencion`  varchar(255),
+    `pago`          boolean DEFAULT FALSE,
+    `filePago`      varchar(255),
+    `policia`       boolean DEFAULT FALSE,
+    `filePolicia`   varchar(255),
+    `valido`        boolean DEFAULT FALSE,
+    `pass`          varchar(32),
+    `dt`            DATE
+) DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;

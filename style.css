@@ -1,0 +1,131 @@
+body,h1,h2,h3,p,quote,small,form,input,ul,li,ol,label{
+    /* The reset rules */
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    color:#555555;
+    font-size:13px;
+    /*background: #00aeef; */
+    background-image: url("image1.jpg"), url("image2.jpg");
+    background-repeat: repeat-x, repeat;
+
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+h1{
+    font-size:38px;
+    font-weight:bold;
+    font-family: esn_font ,Arial, Helvetica, sans-serif;
+    letter-spacing:1px;
+}
+
+h2{
+    font-family:"Arial Narrow",Arial,Helvetica,sans-serif;
+    font-size:10px;
+    font-weight:normal;
+    letter-spacing:1px;
+    padding-left:2px;
+    text-transform:uppercase;
+    white-space:nowrap;
+    margin-top:4px;
+    color:#888888;
+}
+
+#main p{
+    padding-bottom:8px;
+}
+
+.clear{
+    clear:both;
+}
+
+#main{
+    width:800px;
+    /* Centering it in the middle of the page */
+    margin:60px auto;
+}
+
+ul li {
+    list-style-type: circle;
+}
+ul {
+    margin: 15px;
+    padding: 0;
+}
+
+ol {
+    margin: -5px 10px -5px 10px;
+    padding: 30px;
+}
+
+.container{
+    margin-top:20px;
+
+    background:#FFFFFF;
+    border:1px solid #E0E0E0;
+    padding:15px;
+
+    /* Rounded corners */
+    -moz-border-radius:20px;
+    -khtml-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius:20px;
+}
+
+.err{
+    color:red;
+}
+
+.success{
+    color:#00CC00;
+}
+
+a, a:visited {
+    color:#F47B20;/*00BBFF;*/
+    text-decoration:none;
+    outline:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+.foot{
+    text-align:center;
+    padding:10px;
+}
+
+/*#menu ul, li {
+        list-style-type: none;
+}*/
+/*#menu ul {
+        margin: 0;
+        padding: 0;
+}*/
+#menu li {
+    float: left;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #555555;
+    background: #eeeeee;
+    /*display: block;*/
+    padding: 3px 10px;
+    text-align: center;
+    border: 1px solid;
+    border-width: 1px 1px 1px 0;
+}
+
+div label {
+    width: 15%;
+    float: left;
+}
+
+@font-face {
+    font-family: esn_font;
+    src: url('MagdaClean.ttf');
+}
